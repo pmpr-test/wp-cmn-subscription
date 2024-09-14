@@ -1,0 +1,7 @@
+{% if features is not empty %}
+    <ul>
+        {% for feature in features %}
+            <li>{{ feature|raw }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}

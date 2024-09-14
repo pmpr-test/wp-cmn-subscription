@@ -1,0 +1,703 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr Common Subscription\n"
+"POT-Creation-Date: 2024-06-30 16:32+0330\n"
+"PO-Revision-Date: 2024-06-30 16:32+0330\n"
+"Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Common/Subscription/Engine.php:338
+msgid "Plan id can not be retrieved."
+msgstr ""
+
+#: src/Pmpr/Common/Subscription/Engine.php:342
+msgid "Already Subscribed."
+msgstr "پیش از این مشترک شده‌اید."
+
+#: src/Pmpr/Common/Subscription/Engine.php:384
+#, php-format
+msgid "%s must subscribe first."
+msgstr "%s ابتدا باید  مشترک شود."
+
+#: src/Pmpr/Common/Subscription/Engine.php:790
+msgid "Plan is not ready to add to cart, please contact us."
+msgstr ""
+
+#: src/Pmpr/Common/Subscription/Engine.php:794
+msgid "Plan is not active right now, pleas choice another plan."
+msgstr "پلن در حال حاضر فعال نیست، لطفا پلن دیگری را انتخاب کنید."
+
+#: src/Pmpr/Common/Subscription/Model/AbstractSub.php:16
+msgid "Subscriber"
+msgstr "مشترک"
+
+#: src/Pmpr/Common/Subscription/Model/AbstractSub.php:20
+msgid "Order ID"
+msgstr "شناسه سفارش"
+
+#: src/Pmpr/Common/Subscription/Model/AbstractSub.php:24
+#: src/Pmpr/Common/Subscription/Model/Plan.php:46
+#: src/Pmpr/Common/Subscription/Model/Usage.php:32
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/Pmpr/Common/Subscription/Model/AbstractSub.php:25
+#: src/Pmpr/Common/Subscription/Model/Plan.php:44
+msgid "Active"
+msgstr "فعال"
+
+#: src/Pmpr/Common/Subscription/Model/AbstractSub.php:26
+msgid "Finished"
+msgstr "پایان یافته"
+
+#: src/Pmpr/Common/Subscription/Model/AbstractSub.php:27
+msgid "Cancelled"
+msgstr "لغو شده"
+
+#: src/Pmpr/Common/Subscription/Model/Extra.php:18
+msgid "Extras"
+msgstr "اضافی‌ها"
+
+#: src/Pmpr/Common/Subscription/Model/Extra.php:19
+#: src/Pmpr/Common/Subscription/Model/Usage.php:37
+#: src/Pmpr/Common/Subscription/Setting.php:154
+msgid "Extra"
+msgstr "اضافی"
+
+#: src/Pmpr/Common/Subscription/Model/Extra.php:29
+#: src/Pmpr/Common/Subscription/Model/Usage.php:46
+msgid "Value"
+msgstr "مقدار"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:25
+msgid "Plans"
+msgstr "پلن‌ها"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:26
+#: src/Pmpr/Common/Subscription/Setting.php:93
+msgid "Plan"
+msgstr "پلن"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:36
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:40
+msgid "Display Title"
+msgstr "عنوان نمایشی"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:45
+msgid "Inactive"
+msgstr "غیر فعال‌‌"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:51
+msgid "Related Product"
+msgstr "محصول مرتبط"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:55
+msgid "Period (Unit)"
+msgstr "دوره (واحد)"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:56
+msgid "Daily"
+msgstr "روزانه"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:57
+msgid "Weekly"
+msgstr "هفتگی"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:58
+msgid "Monthly"
+msgstr "ماهانه"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:59
+msgid "Yearly"
+msgstr "سالانه"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:64
+msgid "Period (Value)"
+msgstr "دوره (مقدار)"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:69
+msgid "Priority"
+msgstr "اولویت"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:73
+msgid "Description"
+msgstr "شرح"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:77
+msgid "Rules"
+msgstr "قواعد"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:81
+msgid "Features"
+msgstr "ویژگی‌ها"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:92
+msgid "Display on admin panel area."
+msgstr "نمایش در قسمت پنل مدیریت."
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:96
+msgid "Display Title (Frontend)"
+msgstr "عنوان نمایشی (قسمت نمایشی)"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:97
+msgid "Leave empty if you want use title as display title."
+msgstr "اگر می‌خواهید از عنوان استفاده شود، این فیلد را خالی رها کنید."
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:113
+msgid "Duration of active subscription for the user."
+msgstr ""
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:117
+msgid ""
+"Display priority and calculation priority in cases of differences between plans."
+msgstr "اولویت نمایش و اولویت محاسباتی در موارد اختلاف بین پلن‌ها."
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:128
+msgid "Feature"
+msgstr "ویژگی‌"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:132
+msgid "Text"
+msgstr "متن"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:275
+#: src/Pmpr/Common/Subscription/Setting.php:148
+msgid "Buy Now!"
+msgstr "الان بخرید!"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:325
+msgid "Rule"
+msgstr "قاعده"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:328
+msgid "Type"
+msgstr "نوع"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:329
+msgid "Providing discounts for subscribers"
+msgstr "ارائه تخفیف برای مشترکین"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:334
+msgid "Coupon"
+msgstr "کد تخفیف"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:338
+#, php-format
+msgid "Set the desired products through %s."
+msgstr "محصولات مورد نظر را از طریق %s تنظیم کنید."
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:340
+msgid "The discount code section"
+msgstr "بخش کد تخفیف"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:348
+msgid "Add to Cart Button Text"
+msgstr "متن دکمه افزودن به سبد خرید"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:349
+msgid "Shown to subscribed users."
+msgstr "به کاربران دارای اشتراک نمایش داده می‌شود."
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:353
+msgid "Alert for none subscribed users"
+msgstr "پیام به کاربرانی که اشتراک ندارند"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:354
+msgid ""
+"Users who do not have a subscription will see this message when viewing any of "
+"the products containing the selected coupon."
+msgstr ""
+"کاربرانی که اشتراک ندارند با مشاهده هر یک از محصولات شامل کد تخفیف انتخاب شده، "
+"این پیام را مشاهده می‌کنند."
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:385
+#, php-format
+msgid "%s Day"
+msgid_plural "%s Days"
+msgstr[0] "%s روز"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:388
+#, php-format
+msgid "%s Week"
+msgid_plural "%s Weeks"
+msgstr[0] "%s هفته"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:391
+#, php-format
+msgid "%s Year"
+msgid_plural "%s Years"
+msgstr[0] "%s سال"
+
+#: src/Pmpr/Common/Subscription/Model/Plan.php:395
+#, php-format
+msgid "%s Month"
+msgid_plural "%s Months"
+msgstr[0] "%s ماه"
+
+#: src/Pmpr/Common/Subscription/Model/Subscription.php:40
+msgid "Subscriptions"
+msgstr "اشتراک‌ها"
+
+#: src/Pmpr/Common/Subscription/Model/Subscription.php:41
+#: src/Pmpr/Common/Subscription/Model/Usage.php:36
+msgid "Subscription"
+msgstr "اشتراک"
+
+#: src/Pmpr/Common/Subscription/Model/Subscription.php:51
+msgid "Expiration Date"
+msgstr "تاریخ انقضا"
+
+#: src/Pmpr/Common/Subscription/Model/Subscription.php:239
+#, php-format
+msgid "Subscription of %s activate successfully."
+msgstr ""
+
+#: src/Pmpr/Common/Subscription/Model/Subscription.php:249
+#, fuzzy
+#| msgid "Already Subscribed Message"
+msgid "User already subscribed."
+msgstr "پیام کاربران مشترک"
+
+#: src/Pmpr/Common/Subscription/Model/Subscription.php:253
+msgid "Can not determine subscription subscriber."
+msgstr ""
+
+#: src/Pmpr/Common/Subscription/Model/Usage.php:18
+msgid "Usages"
+msgstr "موارد استفاده"
+
+#: src/Pmpr/Common/Subscription/Model/Usage.php:19
+msgid "Usage"
+msgstr "استفاده"
+
+#: src/Pmpr/Common/Subscription/Model/Usage.php:29
+msgid "Pending"
+msgstr "در انتظار"
+
+#: src/Pmpr/Common/Subscription/Model/Usage.php:30
+msgid "Failed"
+msgstr "ناموفق"
+
+#: src/Pmpr/Common/Subscription/Model/Usage.php:31
+msgid "Completed"
+msgstr "تکمیل شده"
+
+#: src/Pmpr/Common/Subscription/Model/Usage.php:38
+msgid "Usage Origin"
+msgstr "منشا استفاده"
+
+#: src/Pmpr/Common/Subscription/Model/Usage.php:42
+msgid "Origin"
+msgstr "منشا"
+
+#: src/Pmpr/Common/Subscription/Setting.php:53
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Common/Subscription/Setting.php:85
+#: src/Pmpr/Common/Subscription/Setting.php:110
+#: src/Pmpr/Common/Subscription/Setting.php:181
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Common/Subscription/Setting.php:86
+msgid "General Configuration"
+msgstr "پیکربندی عمومی"
+
+#: src/Pmpr/Common/Subscription/Setting.php:89
+msgid "Free Plan"
+msgstr "پلن رایگان"
+
+#: src/Pmpr/Common/Subscription/Setting.php:97
+msgid "Once Purchasable"
+msgstr "یک بار قابل خرید"
+
+#: src/Pmpr/Common/Subscription/Setting.php:98
+msgid "If you check this option, subscribers can purchase this plan once."
+msgstr ""
+"اگر این گزینه را فعال کنید، مشترک‌ها فقط یک بار می‌توانند در پلن رایگان مشترک "
+"شوند."
+
+#: src/Pmpr/Common/Subscription/Setting.php:104
+msgid "Pricing"
+msgstr "قیمت گذاری"
+
+#: src/Pmpr/Common/Subscription/Setting.php:106
+msgid "Pricing Page & Modal"
+msgstr "صفحه قیمت‌گذاری و مودال"
+
+#: src/Pmpr/Common/Subscription/Setting.php:113
+msgid "Page"
+msgstr "صفحه"
+
+#: src/Pmpr/Common/Subscription/Setting.php:118
+msgid "Page Title"
+msgstr "عنوان صفحه"
+
+#: src/Pmpr/Common/Subscription/Setting.php:122
+msgid "Page Description"
+msgstr "شرح صفحه"
+
+#: src/Pmpr/Common/Subscription/Setting.php:126
+msgid "View Plans"
+msgstr "مشاهده پلن‌ها"
+
+#: src/Pmpr/Common/Subscription/Setting.php:127
+msgid "Pricing Button Text"
+msgstr "متن دکمه قیمت‌گذاری"
+
+#: src/Pmpr/Common/Subscription/Setting.php:128
+msgid "Text of button linked to pricing page."
+msgstr "متن دکمه لینک شده به صفحه قیمت گذاری."
+
+#: src/Pmpr/Common/Subscription/Setting.php:134
+msgid "Call to Action"
+msgstr "کال تو اکشن (Call to Action)"
+
+#: src/Pmpr/Common/Subscription/Setting.php:137
+msgid "Button Functionality"
+msgstr "عملکرد دکمه"
+
+#: src/Pmpr/Common/Subscription/Setting.php:140
+msgid "Add to Cart"
+msgstr "افزودن به سبد خرید"
+
+#: src/Pmpr/Common/Subscription/Setting.php:141
+msgid "Link to Product"
+msgstr "لینک به صفحه محصول"
+
+#: src/Pmpr/Common/Subscription/Setting.php:147
+msgid "Button Text"
+msgstr "متن دکمه"
+
+#: src/Pmpr/Common/Subscription/Setting.php:156
+msgid "Extra Configuration"
+msgstr "پیکربندی اضافی"
+
+#: src/Pmpr/Common/Subscription/Setting.php:160
+msgid "Product Config"
+msgstr "پیکربندی محصول"
+
+#: src/Pmpr/Common/Subscription/Setting.php:163
+msgid "Product"
+msgstr "محصول"
+
+#: src/Pmpr/Common/Subscription/Setting.php:168
+msgid "Product Attribute"
+msgstr "ویژگی محصول"
+
+#: src/Pmpr/Common/Subscription/Setting.php:176
+msgid "Woocommerce"
+msgstr "ووکامرس"
+
+#: src/Pmpr/Common/Subscription/Setting.php:177
+msgid "Woocommerce Configuration"
+msgstr "پیکربندی ووکامرس"
+
+#: src/Pmpr/Common/Subscription/Setting.php:184
+msgid "Thank You Message"
+msgstr "پیام تشکر"
+
+#: src/Pmpr/Common/Subscription/Setting.php:186
+#: src/Pmpr/Common/Subscription/Setting.php:199
+#, fuzzy, php-format
+#| msgid ""
+#| "%1$s subscription has been activated for you until %2$s.<br>From now until "
+#| "%2$s, you will benefit from the following features..<br>%3$s"
+msgid ""
+"%1$s subscription has been activated for %2$s until %3$s.<br>From now until "
+"%3$s, you will benefit from the following features..<br>%4$s"
+msgstr ""
+"اشتراک %1$s تا تاریخ %2$s برای شما فعال گردید.<br>از این پس تا تاریخ %2$s از "
+"ویژگی‌های زیر بهرمند خواهید شد.<br>%3$s"
+
+#: src/Pmpr/Common/Subscription/Setting.php:189
+#, fuzzy
+#| msgid ""
+#| "If the user has purchased a plan, this message will be displayed on the "
+#| "thank you page."
+msgid ""
+"If the user has purchased a plan, this message will be displayed on the "
+"woocommerce thank you page."
+msgstr ""
+"اگر کاربر پلنی را خریداری کرده باشد، این پیام در صفحه تشکر به وی نمایش داده می "
+"شود."
+
+#: src/Pmpr/Common/Subscription/Setting.php:190
+#: src/Pmpr/Common/Subscription/Setting.php:203
+msgid "Subscriber Name"
+msgstr "نام مشترک"
+
+#: src/Pmpr/Common/Subscription/Setting.php:191
+#: src/Pmpr/Common/Subscription/Setting.php:204
+msgid "Subscription Plan"
+msgstr "پلن اشتراک"
+
+#: src/Pmpr/Common/Subscription/Setting.php:192
+#: src/Pmpr/Common/Subscription/Setting.php:205
+msgid "Subscription Expire Date"
+msgstr "تاریخ انقضای اشتراک"
+
+#: src/Pmpr/Common/Subscription/Setting.php:193
+#: src/Pmpr/Common/Subscription/Setting.php:206
+msgid "Subscription Features"
+msgstr "ویژگی‌های اشتراک"
+
+#: src/Pmpr/Common/Subscription/Setting.php:197
+msgid "Order Item Information Message"
+msgstr ""
+
+#: src/Pmpr/Common/Subscription/Setting.php:202
+#, fuzzy
+#| msgid ""
+#| "If the user has purchased a plan, this message will be displayed on the "
+#| "thank you page."
+msgid ""
+"If the user has purchased a plan, this message will be displayed on the thank "
+"you page under order item."
+msgstr ""
+"اگر کاربر پلنی را خریداری کرده باشد، این پیام در صفحه تشکر به وی نمایش داده می "
+"شود."
+
+#: src/Pmpr/Common/Subscription/Setting.php:210
+msgid "Disable Direct Purchase"
+msgstr ""
+
+#: src/Pmpr/Common/Subscription/Setting.php:211
+msgid "Avoid purchase extra & plan products directly."
+msgstr ""
+
+#: src/Pmpr/Common/Subscription/Setting.php:217
+msgid "Direct Purchase Message"
+msgstr ""
+
+#: src/Pmpr/Common/Subscription/Setting.php:218
+msgid "Display on subscription products page."
+msgstr ""
+
+#: src/Pmpr/Common/Subscription/Setting.php:219
+msgid "Pricing Page"
+msgstr "صفحه قیمت‌گذاری"
+
+#: src/Pmpr/Common/Subscription/Setting.php:222
+#, php-format
+msgid "To buy this product, please proceed through the %s."
+msgstr ""
+
+#: src/Pmpr/Common/Subscription/Setting.php:231
+msgid "Cart"
+msgstr "سبد خرید"
+
+#: src/Pmpr/Common/Subscription/Setting.php:235
+msgid "Inactive Plan(Not available for purchase) Message"
+msgstr "پیام پلن غیرفعال (غیر قابل خرید)"
+
+#: src/Pmpr/Common/Subscription/Setting.php:236
+msgid "You can not add this plan to cart."
+msgstr "شما نمی‌توانید این پلن را به سبد خرید خود اضافه کنید."
+
+#: src/Pmpr/Common/Subscription/Setting.php:237
+msgid "This message show when user try to add inactive plan to cart."
+msgstr ""
+"اگر کاربر یک پلن غیرفعال را به کارت خود اضافه کند، این پیام نمایش داده می‌شود."
+
+#: src/Pmpr/Common/Subscription/Setting.php:242
+msgid "Already Subscribed Message"
+msgstr "پیام کاربران مشترک"
+
+#: src/Pmpr/Common/Subscription/Setting.php:243
+msgid "You already have an active plan."
+msgstr "شما در حال حاضر دارای پلن فعال هستید."
+
+#: src/Pmpr/Common/Subscription/Setting.php:244
+msgid ""
+"This message show when user has an active plan and try to add another plan to "
+"cart."
+msgstr ""
+"این پیام به کاربرانی که پلن فعال دارند و تلاش می‌کنند پلن دیگری را به سبد خرید "
+"اضافه کنند، نمایش داده می‌شود."
+
+#: src/Pmpr/Common/Subscription/Setting.php:249
+msgid "Another Plan Already Added to Cart Message"
+msgstr "پیام وجود پلن دیگر در سبد خرید"
+
+#: src/Pmpr/Common/Subscription/Setting.php:250
+msgid ""
+"You can not add this item to cart, because you have another plan in you cart."
+msgstr ""
+"شما نمی‌توانید این آیتم را به سبد خرید خود اضافه کنید، زیرا در حال حاضر پلن "
+"دیگری در سبد خریدتان وجود دارد."
+
+#: src/Pmpr/Common/Subscription/Setting.php:251
+msgid "This message show when user try add more than one plan to cart."
+msgstr ""
+"این پیام زمانی نمایش داده می‌شود که کاربر سعی در افزودن بیش از یک پلن به سبد "
+"خرید خود داشته باشد."
+
+#: src/Pmpr/Common/Subscription/Subscription.php:18
+msgid "Common Subscription"
+msgstr "زیر ساخت مشترک اشتراک"
+
+#: src/Pmpr/Common/Subscription/Woocommerce/Coupon.php:68
+msgid "Discount"
+msgstr ""
+
+#: src/Pmpr/Common/Subscription/Woocommerce/Order.php:57
+#, php-format
+msgid "%s Subscribed to %s successfully."
+msgstr "%s با موفقیت در %s مشترک شد."
+
+#: src/Pmpr/Common/Subscription/Woocommerce/Order.php:86
+#, php-format
+msgid "%s extra successfully added to %s."
+msgstr "%s اضافی با موفقیت برای %s لحاظ شد."
+
+#: src/Pmpr/Common/Subscription/Woocommerce/Order.php:102
+msgid "Can not recognise your subscriber id"
+msgstr ""
+
+#: src/Pmpr/Common/Subscription/Woocommerce/Setting.php:53
+msgid "Carts containing subscription plans cannot be paid for by guest users."
+msgstr "سبد‌های خرید حاوی پلن‌های اشتراک،‌ قابل پرداخت توسط کاربران مهمان نیستند."
+
+#~ msgid "%s coins"
+#~ msgstr "%s سکه"
+
+#~ msgid "Select a active plan"
+#~ msgstr "یک پلن فعال انتخاب کنید"
+
+#~ msgid "Bypass"
+#~ msgstr "دور زدن"
+
+#~ msgid "Bypassing plans restrictions"
+#~ msgstr "دور زدن محدودیت‌ پلن‌ها"
+
+#~ msgid "User"
+#~ msgstr "کاربر"
+
+#~ msgid "Roles"
+#~ msgstr "نقش‌های کاربری"
+
+#~ msgid "Users with selected roles bypass all plans restrictions."
+#~ msgstr ""
+#~ "کاربرانی که دارای نقش‌های کاربری انتخاب شده باشند، تمامی محدودیت‌های اعمال شده "
+#~ "توسط پلن‌ها را دور می‌زنند."
+
+#, fuzzy
+#~| msgid "Order ID"
+#~ msgid "Order By"
+#~ msgstr "شناسه سفارش"
+
+#~ msgid "Quantity"
+#~ msgstr "تعداد"
+
+#~ msgid "Attribute"
+#~ msgstr "ویژگی‌"
+
+#~ msgid "User Subscription Status"
+#~ msgstr "وضعیت اشتراک کاربر"
+
+#~ msgid ""
+#~ "Depending on the cover or skin used, in order to display the status of the "
+#~ "user's subscription, short and long templates will be used in different "
+#~ "places."
+#~ msgstr ""
+#~ "بسته به کاور یا پوسته مورد استفاده، به منظور نمایش وضعیت اشتراک کاربر از "
+#~ "قالب‌های مختصر و مفصل در مکان‌های مختلف استفاده خواهد شد."
+
+#~ msgid "User Status Short Template"
+#~ msgstr "قالب مختصر وضعیت کاربر"
+
+#~ msgid "User Status Long Template"
+#~ msgstr "قالب مفصل وضعیت کاربر"
+
+#~ msgid "Usage Period"
+#~ msgstr "دوره استفاده"
+
+#~ msgid ""
+#~ "Specify how many months the subscribers can use their subscription after "
+#~ "preparing the subscription."
+#~ msgstr ""
+#~ "مشخص کنید که مشترکین پس از تهیه اشتراک چند ماه می توانند از اشتراک خود "
+#~ "استفاده کنند."
+
+#~ msgid ""
+#~ "A non-inclusive approach, no matter what rule it is defined in, has priority "
+#~ "over all inclusive approaches."
+#~ msgstr ""
+#~ "یک رویکرد عدم شمول، فارغ از اینکه در چه قاعده‌ای تعریف شود به تمامی رویکرد‌های "
+#~ "از نوع شمول اولویت دارد."
+
+#~ msgid "Aggregated Usages"
+#~ msgstr "مصارف تجمیع‌شده"
+
+#~ msgid "Aggregated Usage"
+#~ msgstr "مصرف تجمیع‌شده"
+
+#~ msgid "Seperated Usages"
+#~ msgstr "مصارف جداگانه"
+
+#~ msgid "Seperated Usage"
+#~ msgstr "مصرف جداگانه"
+
+#~ msgid "Time"
+#~ msgstr "زمان"
+
+#~ msgid "Number"
+#~ msgstr "تعداد"
+
+#~ msgid "Both"
+#~ msgstr "هر دو"
+
+#~ msgid "Manual"
+#~ msgstr "دستی"
+
+#~ msgid "Automatic"
+#~ msgstr "خودکار"
+
+#~ msgid "Calculation Method"
+#~ msgstr "روش محاسبه"
+
+#~ msgid "Default"
+#~ msgstr "پیشفرض"
+
+#~ msgid "Calculation Function"
+#~ msgstr "رویه محاسبه"
+
+#~ msgid "Restricted access for non-subscribers"
+#~ msgstr "محدودیت دسترسی برای غیر مشترکین"
+
+#~ msgid "Approach"
+#~ msgstr "رویکرد"
+
+#~ msgid "Include"
+#~ msgstr "شمول"
+
+#~ msgid "Restrictions apply to selected items"
+#~ msgstr "محدودیت به موارد انتخابی اعمال شود"
+
+#~ msgid "Exclude"
+#~ msgstr "عدم شمول"
+
+#~ msgid "Restrictions should not be applied to selected items"
+#~ msgstr "محدودیت به موارد انتخابی اعمال نشود"
+
