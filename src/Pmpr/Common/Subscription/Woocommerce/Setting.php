@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6800f6f59c461             |
+    |             6800f85c949b9             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Subscription\Woocommerce; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Subscription\Container; class Setting extends Container { public function kgquecmsgcouyaya() { $this->cecaguuoecmccuse('woocommerce_account_settings', [$this, 'oqwgwywscmkioawk']); } public function wyemeqiemgyguqae($eumecwmqmukqgyea) { if (!$eumecwmqmukqgyea) { $ekymkycgewkiouqe = $this->caokeucsksukesyo()->wikusamwomuogoau(); if ($this->ucygcmiuugoemkeo($ekymkycgewkiouqe->uakuwyoiooeqqiow())) { $eumecwmqmukqgyea = true; } } return $eumecwmqmukqgyea; } public function oqwgwywscmkioawk($qeqooyuoiasweuck) { $gkyciwoiiisgywcs = $this->caokeucsksukesyo()->ywqgcuymeiswqyqc(); $amakmumgguksgmum = $gkyciwoiiisgywcs->find($qeqooyuoiasweuck, Constants::gouqcwikiiygyasc, 'woocommerce_enable_guest_checkout'); if (false !== $amakmumgguksgmum) { $uiewakwqscemywuo = $qeqooyuoiasweuck[$amakmumgguksgmum]; $uiewakwqscemywuo['desc'] = $uiewakwqscemywuo['desc'] . $this->caokeucsksukesyo()->wmkogisswkckmeua()->mumsqekeeuykyemy([Constants::gouqcwikiiygyasc => 'account_subscription_notice', Constants::squoamkioomemiyi => Constants::smkwuwawwaqyimcq, Constants::kqeokggqcsesmqco => true, Constants::ssmskyqgcmeiayco => __('Carts containing subscription plans cannot be paid for by guest users.', PR__CMN__SUBSCRIPTION)]); $qeqooyuoiasweuck[$amakmumgguksgmum] = $uiewakwqscemywuo; } return $qeqooyuoiasweuck; } }

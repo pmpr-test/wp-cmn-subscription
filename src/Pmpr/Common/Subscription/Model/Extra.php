@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6800f6f59c461             |
+    |             6800f85c949b9             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Subscription\Model; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\Interfaces\IconInterface; abstract class Extra extends AbstractSub { public function register() { $this->muuwuqssqkaieqge(__('Extras', PR__CMN__SUBSCRIPTION))->guiaswksukmgageq(__('Extra', PR__CMN__SUBSCRIPTION))->saemoowcasogykak(IconInterface::imoykkmkkkaqgouo)->uaywwyimkgwyqwya([Constants::yiuwgggacagyeqmo => 30]); $this->ecmiqywsauuoccwo(Constants::ukwaycqmyyuekwqg)->ecmiqywsauuoccwo(Constants::ieioeisgwcgysukw)->ecmiqywsauuoccwo(Constants::awysmmukegasimmq)->ecmiqywsauuoccwo(Constants::weiosaewqequuyuq); } public function uwmqacgewuauagai() { $this->cquokmemekqqywgi($this->caokeucsksukesyo()->skckwsgymkimyuwo()->qoemykoeuecmsmwe(Constants::ciyoccqkiamemcmm)->gswweykyogmsyawy(__('Value', PR__CMN__SUBSCRIPTION))->iwwmociiuayuwssq([$this, 'iukqkygkscmaiaay'])); parent::uwmqacgewuauagai(); } public function aoqwywcqmoqaukkq() { parent::aoqwywcqmoqaukkq(); $this->yyoqecggyacaseko()->mkksewyosgeumwsa($this->caokeucsksukesyo()->wmkogisswkckmeua()->ymuegqgyuagyucws(Constants::ciyoccqkiamemcmm)->escqqisecooswqgo()->mkmssscwmeekwgqo()); } public function iukqkygkscmaiaay($eqgoocgaqwqcimie) { return $eqgoocgaqwqcimie; } }
